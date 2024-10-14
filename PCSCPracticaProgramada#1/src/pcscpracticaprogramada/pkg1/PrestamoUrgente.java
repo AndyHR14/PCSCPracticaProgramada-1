@@ -27,10 +27,10 @@ public class PrestamoUrgente extends Prestamo{
     
     public void validarPrestamo(Libro libro, Usuario usuario) throws Exception {
         if (!libro.isDisponible()) {
-            throw new Exception("El libro no está disponible");
+            throw new Exception("El libro no esta disponible");
         }
         if (usuario.getEmail() == null) {
-            throw new Exception("El usuario no está registrado");
+            throw new Exception("El usuario no esta registrado");
         }
     }
     public void realizarPrestamo(Libro libro, Usuario usuario){
