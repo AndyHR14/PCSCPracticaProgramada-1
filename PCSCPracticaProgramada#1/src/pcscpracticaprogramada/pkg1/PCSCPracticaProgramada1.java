@@ -5,7 +5,7 @@ public class PCSCPracticaProgramada1 {
     public static void main(String[] args) {
         // Creación de objetos Autor y Libro
         Autor autor = new Autor("John", "Tolkien");
-        Libro libro1 = new Libro("El señor de los anillos", autor, 1954, true);
+        Libro libro1 = new Libro("El senor de los anillos", autor, 1954, true);
         Libro libro2 = new Libro("El hobbit", autor, 1937, true);
         
         autor.agregarLibro(libro1);
